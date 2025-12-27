@@ -12,4 +12,4 @@ def whatsapp():
 
 @whatsapp_bp.route("/status", methods=["GET"])
 def status():
-    return "🤖 Bot !"
+    return "🤖 Bot ativo!"
